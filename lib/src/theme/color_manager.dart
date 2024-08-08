@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ColorManager {
-  static Color appBackground = const Color(0xffFCFCFC); // ff=>CC opactiy 80%
+  static Color appBackground =
+      const Color.fromARGB(255, 48, 32, 32); // ff=>CC opactiy 80%
   static Color appBarTextColor = Colors.black;
   static Color appbarColor = Colors.white;
   static Color appbarColorShadow = Colors.black;
