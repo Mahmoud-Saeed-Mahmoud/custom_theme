@@ -6,6 +6,13 @@ ThemeData getApplicationTheme() {
   return ThemeData(
     useMaterial3: true,
 
+    scrollbarTheme: const ScrollbarThemeData().copyWith(
+      thumbColor: WidgetStateProperty.all(ColorManager.primary),
+      trackColor: WidgetStateProperty.all(ColorManager.lightGrey),
+      trackVisibility: WidgetStateProperty.all(true),
+      thumbVisibility: WidgetStateProperty.all(true),
+    ),
+
     /// main colors
     primaryColor: ColorManager.primary,
     primaryColorLight: ColorManager.lightPrimary,
