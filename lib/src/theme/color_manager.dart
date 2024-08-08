@@ -6,7 +6,10 @@ class ColorManager {
   static Color appbarColor = Colors.white;
   static Color appbarColorShadow = Colors.black;
   static Color background = Colors.white; // ff=>CC opactiy 80%
+  //static Color textFormFiledIcon = const Color(0xff956fd6);
+
   static Color bgColor = const Color(0xfff8f7f3);
+
   static Color bgSideMenu = const Color(0xff131e29);
   static const Color black = Colors.black;
   static Color bodyMedium = Colors.white;
@@ -23,6 +26,7 @@ class ColorManager {
   // static Color shippedStatus = const Color(0xffAC2E9F);
 
   static Color deliverdStatus = const Color(0xff07CC66);
+  static Color green = const Color(0xff07CC66);
 
   static Color displayLargeText = Colors.black;
   static Color elevatedButtonColor = Colors.black;
@@ -44,7 +48,6 @@ class ColorManager {
     'Grade 12': const Color(0xff168aad),
   };
 
-  static Color green = const Color(0xff07CC66);
   static const Color grey = Color(0x99858585);
   static Color greyA8 = const Color(0xffA8A8A8);
   static Color headline1 = Colors.white;
@@ -70,34 +73,9 @@ class ColorManager {
   static const Color primary = Color(0xff001F44);
 
   static Color processingStatus = const Color(0xffFFDD00);
+  static Color ornage = const Color(0xffD09757);
   static Color red = const Color(0xffb22222);
   static Color redWith10opc = const Color(0x9AB5191A); // ff=>CC opactiy 80%
-  //static Color textFormFiledIcon = const Color(0xff956fd6);
-
-  static const List<Color> rolesColors = [
-    Color(0xFFB3C6FF), // Soft Blue
-    Color(0xFFE0E0E0), // Warm Grey
-    Color(0xFFB2DFDB), // Mint Green
-    Color(0xFFD8CAB8), // Pale Taupe
-    Color(0xFFFFDAB9), // Light Coral
-    Color(0xFF87CEEB), // Sky Blue
-    Color(0xFFE6E6FA), // Pastel Lavender
-    Color(0xFFFFF5E1), // Light Peach
-    Color(0xFFB9D8C2), // Soft Sage
-  ];
-
-  static const List<Color> screensColors = [
-    Color(0xFFFAD6D0), // Soft Peach
-    Color(0xFFB2DFDB), // Pale Aqua
-    Color(0xFFE6E6FA), // Light Lavender
-    Color(0xFFFAF0F0), // Pale Grey
-    Color(0xFFFFF9C4), // Pastel Yellow
-    Color(0xFFFFE0E0), // Blush Pink
-    Color(0xFF20B2AA), // Light Sea Green
-    Color(0xFFFFFDD0), // Cream
-    Color(0xFF98FF98), // Light Mint
-  ];
-
   static Color subtitle1 = Colors.white;
   static Color subtitle2 = Colors.white;
   static Color textFormFieldHintStyle = Colors.black;
