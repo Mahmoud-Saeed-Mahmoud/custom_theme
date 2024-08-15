@@ -20,7 +20,7 @@ ThemeData getApplicationTheme() {
     disabledColor: ColorManager.grey,
 
     // cardView Theme
-    cardTheme: CardTheme(
+    cardTheme: const CardTheme(
       color: ColorManager.white,
       shadowColor: ColorManager.lightGrey,
       elevation: AppSize.s5,
@@ -45,8 +45,8 @@ ThemeData getApplicationTheme() {
 
     ///button theme
 
-    buttonTheme: ButtonThemeData(
-      shape: const StadiumBorder(),
+    buttonTheme: const ButtonThemeData(
+      shape: StadiumBorder(),
       disabledColor: ColorManager.buttonDisableColor,
       buttonColor: ColorManager.buttonColor,
       splashColor: ColorManager.buttonSplashColor,
@@ -121,10 +121,10 @@ ThemeData getApplicationTheme() {
           borderSide: BorderSide(color: ColorManager.grey, width: AppSize.s1),
           borderRadius: BorderRadius.all(Radius.circular(AppSize.s4))),
       // disabled border style
-      disabledBorder: OutlineInputBorder(
+      disabledBorder: const OutlineInputBorder(
           borderSide: BorderSide(
               color: ColorManager.outlineInputBorderColor, width: AppSize.s1_5),
-          borderRadius: const BorderRadius.all(Radius.circular(AppSize.s4))),
+          borderRadius: BorderRadius.all(Radius.circular(AppSize.s4))),
       // foucsed border style
       focusedBorder: const OutlineInputBorder(
           borderSide:
@@ -133,10 +133,10 @@ ThemeData getApplicationTheme() {
 
       /// error border style
 
-      errorBorder: OutlineInputBorder(
+      errorBorder: const OutlineInputBorder(
           borderSide:
               BorderSide(color: ColorManager.error, width: AppSize.s1_5),
-          borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
+          borderRadius: BorderRadius.all(Radius.circular(AppSize.s8))),
 
       /// focusedErrorBorder border style
 
