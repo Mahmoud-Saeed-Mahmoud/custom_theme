@@ -70,6 +70,18 @@ class ColorManager {
     'Grade 10': Color(0xffe07a5f),
     'Grade 11': Color(0xff95c0ba),
     'Grade 12': Color(0xff168aad),
+    'Year 1': Color(0xff4eb9e1),
+    'Year 2': Color(0xff75f8b4),
+    'Year 3': Color(0xffdda15e),
+    'Year 4': Color(0xff67d1d0),
+    'Year 5': Color(0xfffb8500),
+    'Year 6': Color(0xff66ebab),
+    'Year 7': Color(0xfff292a2),
+    'Year 8': Color(0xff67efef),
+    'Year 9': Color(0xffffb703),
+    'Year 10': Color(0xffe07a5f),
+    'Year 11': Color(0xff95c0ba),
+    'Year 12': Color(0xff168aad),
   };
 
   static const Color grey = Color(0x99858585);
